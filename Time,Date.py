@@ -1,5 +1,5 @@
 from flask import *
-import datetime
+from datetime import *
 import pytz
 
 time_help = '''
