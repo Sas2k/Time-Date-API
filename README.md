@@ -1,4 +1,8 @@
 # Time-Date-API
+------
+[![Run on Repl.it](https://repl.it/badge/github/Sas2k/Time-Date-API)](https://repl.it/github/Sas2k/Time-Date-API)<br>
+
+------
 API endpoint = https://Time-Date-API.sas2k.repl.co/ <br>
 
 ------
