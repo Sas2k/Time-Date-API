@@ -8,9 +8,9 @@ API endpoint = https://Time-Date-API.sas2k.repl.co/ <br>
 ------
 Doc
 ------
-###Time<br>
+# Time<br>
 ####TimeZone display<br>
-Ex***- APIURL/time/get/[pick below on which timezone to put here] *note put the timezone without the []*<br>
+Ex***- https://Time-Date-API.sas2k.repl.co/time/get/[pick below on which timezone to put here] *note put the timezone without the []*<br>
 1. sl = Sri Lanka/Colombo Time
 2. eusa = Eastern USA 
 3. aus = Australia/Brisbane
