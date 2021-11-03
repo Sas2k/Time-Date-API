@@ -1,20 +1,48 @@
-# Time-Date-API
-------
-[![Run on Repl.it](https://repl.it/badge/github/Sas2k/Time-Date-API)](https://repl.it/github/Sas2k/Time-Date-API)<br>
 
-------
-API endpoint = https://Time-Date-API.sas2k.repl.co/ <br>
+# Time,Date API 🕛 📅
 
-------
-Doc
-------
-# Time<br>
-####TimeZone display<br>
-Ex***- https://Time-Date-API.sas2k.repl.co/time/get/[pick below on which timezone to put here] *note put the timezone without the []*<br>
-1. sl = Sri Lanka/Colombo Time
-2. eusa = Eastern USA 
-3. aus = Australia/Brisbane
-4. lon = England/London
+A simple api that gives you timezone time and dates[for now]
 
-------
-if your wondering why the poetry files are there is is because this is also hosted in replit.com
+
+## API Reference
+
+### API EndPoint
+
+```http
+https://time-date-api.sas2k.repl.co/
+```
+
+#### Get TimeZone
+
+```http
+  GET /time/get/{timezone}
+```
+
+| code      |    country    | city                       |
+| :-------- | :-------      | :------------------------- |
+| `sl`      |  Sri Lanka    |   Colombo                  |
+| `eusa`    |  Eastern USA  |   Eastern US Time          |
+| `aus`     |  Australia    |   Brisbane                 |
+| `lon`     |  England      |   London
+
+
+## Usage/Examples
+
+```python
+import requests
+
+resoponse = requests.get('https://time-date-api.sas2k.repl.co/time/get/sl')
+
+print(resoponse.text)
+```
+
+
+## Badges
+
+[![Run on Repl.it](https://repl.it/badge/github/Sas2k/Time-Date-API)](https://repl.it/github/Sas2k/Time-Date-API)
+
+
+## Authors
+
+- [@Sas2k](https://www.github.com/Sas2k)
+
