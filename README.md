@@ -23,7 +23,7 @@ https://time-date-api.sas2k.repl.co/
 | `sl`      |  Sri Lanka    |   Colombo                  |
 | `eusa`    |  Eastern USA  |   Eastern US Time          |
 | `aus`     |  Australia    |   Brisbane                 |
-| `lon`     |  England      |   London
+| `lon`     |  England      |   London                   |
 
 
 ## Usage/Examples
